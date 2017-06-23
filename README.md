@@ -1,24 +1,21 @@
-# README
+A tiny RESTful API to index the page content.
+==============
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+API Endpoints
+---------------
 
-Things you may want to cover:
+| **Endpoint**  | **Functionality** |
+| ------------- | ------------- |
+| GET /api/pages  | Lists the urls and content stored in the database  |
+| POST /api/pages  | Stores the content and receives the url and parsed content  |
 
-* Ruby version
+Examples
+---------------
 
-* System dependencies
+Demo app lives here https://tiny-parser.herokuapp.com
 
-* Configuration
+List the URLs:
+https://tiny-parser.herokuapp.com/api/pages
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Show the parsed content:
+https://tiny-parser.herokuapp.com/api/pages?page[url]=http://example.com/
