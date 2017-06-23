@@ -17,5 +17,5 @@ Demo app lives here https://tiny-parser.herokuapp.com
 List the URLs:
 https://tiny-parser.herokuapp.com/api/pages
 
-Show the parsed content:
+Parse, store and show the content:
 https://tiny-parser.herokuapp.com/api/pages?page[url]=http://example.com/
